@@ -1,1 +1,1 @@
-# Bantolo-Captstone
+# Bantolo-Capstone
