@@ -1,0 +1,191 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.content
+{
+    width: 100%;
+    margin-left: 250px;
+}
+
+nav
+{
+    width: 100%;
+    height: 75px;
+    background-color: #2F3029;
+    line-height: 75px;
+    padding: 0px 60px;
+    position: fixed;
+    z-index: 1;
+}
+
+nav ul 
+{
+    float: left;
+}
+
+nav ul li
+{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+}
+
+nav ul li a:hover
+{
+    color: #7ED957;
+    transition: 0.3s;
+    font-weight: bolder;
+}
+
+nav ul li .abstract
+{
+    color: #7ED957;
+    font-weight: bolder;
+}
+
+.logo-content
+{
+    position: absolute;
+    margin-left: 13%;
+    margin-top: 20px;
+}
+
+.content-abstract
+{
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 300px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.stripes
+{
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 70%;
+}
+
+.stripes2
+{
+    position: absolute;
+    margin-top: 4.8%;
+    margin-left: 70%;
+}
+
+.stripes3
+{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 70%;
+}
+
+/* side nav */
+.side-nav
+{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: #018037;
+    top: 0;
+    left: 0;
+    padding: 20px 30px;
+}
+
+.logo
+{
+    display: block;
+    margin-bottom: 130px;
+}
+
+.nav-links
+{
+    position: relative;
+    list-style: none;
+}
+
+.nav-links li
+{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.nav-links li a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li a i
+{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.active
+{
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0;
+    top: 5%;
+    z-index: -1;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(2, green, blue, alpha);
+    display: none;
+    transition: 0.5s;
+
+}
+
+.nav-links li:hover a
+{
+    color: #018037;
+    transition: 0.3s;
+
+}
+
+.nav-links li:hover ~ .active
+{
+    display: block;
+    
+}
+
+.nav-links li:nth-child(1):hover ~ .active
+{
+    top: 5%;
+}
+
+.nav-links li:nth-child(2):hover ~ .active
+{
+    top: 38%;
+}
+
+.nav-links li:nth-child(3):hover ~ .active
+{
+    top: 72%;
+}
